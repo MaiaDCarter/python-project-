@@ -1,0 +1,39 @@
+#This is the opening
+print( "Welcome to ")
+print("THE GREATEST QUIZ OF ALL TIME")
+print("aka the Spongebob Quiz")
+
+playing = input("Do you want to play? ")
+if  playing.lower() != "yes" :
+    quit()
+
+print("Okay! Let's play :) ")
+
+#Question 1
+answer = input ("FIRST, who is Spongebob's best friend? ")
+if answer == "Patrick":
+    print('Good job')
+else:
+    print("WRONG")
+
+#Question 2
+answer = input ("Finish the Line: He lives in a __ under the sea ")
+if answer == "pineapple":
+    print('Correct!')
+else:
+    print("WRONGG")
+
+#Question 3
+answer = input ("What song did Spongebob play at the superbowl in the show? ")
+if answer == "Sweet Victory":
+    print('Correct!')
+else:
+    print("WRONGGG")
+
+#Question 4
+
+answer = input ("What was lost in the first spongebob movie? ")
+if answer == "Neptune's crown":
+    print('Correct!')
+else:
+    print("...no")
